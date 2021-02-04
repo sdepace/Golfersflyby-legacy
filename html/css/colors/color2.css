@@ -1,0 +1,179 @@
+::selection {background: #837bda;}
+::-moz-selection {background: #837bda;}
+
+
+a:hover, a:focus {color:#837bda;}
+
+.overlay {background-color: rgba(207,102,139,0.35);}
+
+.color_text {color:#837bda;}
+
+.color_bg {background-color:#837bda;}
+
+
+/* __________ Buttons __________ */
+.stylereset:hover {background-color:#837bda !important;}
+
+.btn:focus, .btn:hover {background-color:#837bda;}
+.btn-dark:hover, .btn-white:hover {background: #837bda;}
+.btn-active {border-color:#837bda !important; color:#837bda !important;}
+.btn-active:before {border-color:#837bda !important;}
+.btn-active:hover {background-color:#333; color:#fff;}
+.btn-white {color:#837bda;}
+
+/* _________ //Buttons _________ */
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+.navbar-nav li:hover a,
+.navbar-nav li a:focus,
+.navbar-nav li.active a {
+	background: none;
+	color:#837bda;
+	border-color:#837bda;
+}
+.sub-menu ul li.active a, .sub-menu ul li a:hover {color:#837bda !important;}
+ul.mega_menu .color_text {color:#837bda;}
+.navbar-toggle:hover span {color:#837bda;}
+
+
+.color_bg2 {background-color:#17addb;}
+.color_bg1 {background-color:#837bda;}
+
+
+.service_item a {border:2px solid #17addb;}
+.service_item a:hover {border-color:#837bda;}
+.service_item a:before {background-image:url(../../images/services_bord2.png);}
+.service_item a:hover p {color:#837bda;}
+.service_item a:hover i {background-position:0 -180px;}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.service_item a:hover i {background-position:0 -135px;}
+	
+}
+
+@media (max-width: 991px) {
+	.service_item a:hover i {background-position:0 -135px;}
+
+}
+
+
+.projects_block .project_item .hover_img {background-color:#17addb;}
+.projects_block .project_item:hover .proj_descr {background-color:rgba(131,123,218,0.7);}
+
+
+footer .recent_posts li .post_title:hover {color:#837bda;}
+
+
+#newsletter-form input.contact_btn {background-color:#17addb;}
+#newsletter-form input.contact_btn:hover {background-color:#837bda;}
+
+
+.social li a:hover {background-color:#837bda;}
+
+
+.foot_links li span {color:#17addb;}
+.foot_links li:hover span {color:#837bda;}
+
+
+.copyright span {color:#17addb;}
+
+/*-----------------------------------------------------------------------------------*/
+/*	//INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/* __________ Blog __________ */
+#sidebar .tags a:hover, .tags a:hover {background: #837bda;}
+
+.FlickrImages li a {background-color:#837bda;}
+
+footer .tweet_module .tweet_time a {color:#837bda;}
+
+.tweet_module.index_page {background-color:#837bda;}
+/* _________ //Blog _________ */
+
+
+/* __________ About __________ */
+
+/* __________ Skills __________ */
+.skill-bar:hover {border-left-color:#837bda;}
+.skill-bar:hover span {color:#837bda;}
+/* _________ //About _________ */
+
+
+/* __________ Portfolio __________ */
+#filter li a.selected {background-color:#837bda;}
+.portfolio_block .project .hover_img {background-color:#837bda;}
+.portfolio_block .project:hover .project_descr {border-bottom-color:#837bda;}
+.portfolio_block .project:hover .project_descr h4 a {color:#837bda;}
+/* _________ //Portfolio _________ */
+
+
+/* __________ Shop __________ */
+.product_sort #filter li a:hover, .product_sort #filter li a.selected {color:#837bda;}
+
+#price-range .ui-widget-header {background: #837bda;}
+
+.product_item2:hover {border-color:#837bda;}
+
+.product_inf .btn:hover {background-color:#837bda; border-color:#837bda;}
+
+.variable-sizes .product_item .item_btn_in a.btn:hover {background-color:#837bda;}
+
+.sale {background-color:#837bda;}
+
+.type2 .product_price {color:#837bda;}
+.quantity_block .product_inf .btn.add_cart {border-color:#837bda; color:#837bda;}
+.quantity_block .product_inf .btn.add_cart:hover {border-color:#837bda; background-color:#837bda;}
+.jCarousel_pagination a:hover {background-color:#837bda;}
+.jCarousel_pagination a.inactive {background-color:#505050;}
+/* _________ //Shop _________ */
+
+
+/* __________ Shortcodes __________ */
+#accordion .ui-accordion-header:hover, #accordion .ui-accordion-header.ui-accordion-header-active, .shortcode_toggles_item_title:hover, .shortcode_toggles_item_title .ui-state-active {background:#837bda;}
+.nav-tabs li a:hover {color:#837bda;}
+.divider_colored {border-color:#837bda;}
+
+.most_popular .price_item_btn a, .price_item_btn a:hover {background:#837bda;}
+.most_popular .price_item_title {background:#837bda;}
+.most_popular .price_item_cost h2, .most_popular .price_item_cost h2 span {color:#837bda;}
+/* _________ //Shortcodes _________ */
+
+
+/* __________ Footer __________ */
+footer h3 {color:#837bda;}
+footer .tweet_module .tweet_time a {color:#837bda;}
+/* _________ //Footer _________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

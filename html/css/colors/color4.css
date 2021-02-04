@@ -1,0 +1,179 @@
+::selection {background: #ef6361;}
+::-moz-selection {background: #ef6361;}
+
+
+a:hover, a:focus {color:#ef6361;}
+
+.overlay {background-color: rgba(207,102,139,0.35);}
+
+.color_text {color:#ef6361;}
+
+.color_bg {background-color:#ef6361;}
+
+
+/* __________ Buttons __________ */
+.stylereset:hover {background-color:#ef6361 !important;}
+
+.btn:focus, .btn:hover {background-color:#ef6361;}
+.btn-dark:hover, .btn-white:hover {background: #ef6361;}
+.btn-active {border-color:#ef6361 !important; color:#ef6361 !important;}
+.btn-active:before {border-color:#ef6361 !important;}
+.btn-active:hover {background-color:#333; color:#fff;}
+.btn-white {color:#ef6361;}
+
+/* _________ //Buttons _________ */
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+.navbar-nav li:hover a,
+.navbar-nav li a:focus,
+.navbar-nav li.active a {
+	background: none;
+	color:#ef6361;
+	border-color:#ef6361;
+}
+.sub-menu ul li.active a, .sub-menu ul li a:hover {color:#ef6361 !important;}
+ul.mega_menu .color_text {color:#ef6361;}
+.navbar-toggle:hover span {color:#ef6361;}
+
+
+.color_bg2 {background-color:#fdc461;}
+.color_bg1 {background-color:#ef6361;}
+
+
+.service_item a {border:2px solid #fdc461;}
+.service_item a:hover {border-color:#ef6361;}
+.service_item a:before {background-image:url(../../images/services_bord4.png);}
+.service_item a:hover p {color:#ef6361;}
+.service_item a:hover i {background-position:0 -300px;}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.service_item a:hover i {background-position:0 -225px;}
+	
+}
+
+@media (max-width: 991px) {
+	.service_item a:hover i {background-position:0 -225px;}
+
+}
+
+
+.projects_block .project_item .hover_img {background-color:#fdc461;}
+.projects_block .project_item:hover .proj_descr {background-color:rgba(239,99,97,0.7);}
+
+
+footer .recent_posts li .post_title:hover {color:#ef6361;}
+
+
+#newsletter-form input.contact_btn {background-color:#fdc461;}
+#newsletter-form input.contact_btn:hover {background-color:#ef6361;}
+
+
+.social li a:hover {background-color:#ef6361;}
+
+
+.foot_links li span {color:#fdc461;}
+.foot_links li:hover span {color:#ef6361;}
+
+
+.copyright span {color:#fdc461;}
+
+/*-----------------------------------------------------------------------------------*/
+/*	//INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/* __________ Blog __________ */
+#sidebar .tags a:hover, .tags a:hover {background: #ef6361;}
+
+.FlickrImages li a {background-color:#ef6361;}
+
+footer .tweet_module .tweet_time a {color:#ef6361;}
+
+.tweet_module.index_page {background-color:#ef6361;}
+/* _________ //Blog _________ */
+
+
+/* __________ About __________ */
+
+/* __________ Skills __________ */
+.skill-bar:hover {border-left-color:#ef6361;}
+.skill-bar:hover span {color:#ef6361;}
+/* _________ //About _________ */
+
+
+/* __________ Portfolio __________ */
+#filter li a.selected {background-color:#ef6361;}
+.portfolio_block .project .hover_img {background-color:#ef6361;}
+.portfolio_block .project:hover .project_descr {border-bottom-color:#ef6361;}
+.portfolio_block .project:hover .project_descr h4 a {color:#ef6361;}
+/* _________ //Portfolio _________ */
+
+
+/* __________ Shop __________ */
+.product_sort #filter li a:hover, .product_sort #filter li a.selected {color:#ef6361;}
+
+#price-range .ui-widget-header {background: #ef6361;}
+
+.product_item2:hover {border-color:#ef6361;}
+
+.product_inf .btn:hover {background-color:#ef6361; border-color:#ef6361;}
+
+.variable-sizes .product_item .item_btn_in a.btn:hover {background-color:#ef6361;}
+
+.sale {background-color:#ef6361;}
+
+.type2 .product_price {color:#ef6361;}
+.quantity_block .product_inf .btn.add_cart {border-color:#ef6361; color:#ef6361;}
+.quantity_block .product_inf .btn.add_cart:hover {border-color:#ef6361; background-color:#ef6361;}
+.jCarousel_pagination a:hover {background-color:#ef6361;}
+.jCarousel_pagination a.inactive {background-color:#505050;}
+/* _________ //Shop _________ */
+
+
+/* __________ Shortcodes __________ */
+#accordion .ui-accordion-header:hover, #accordion .ui-accordion-header.ui-accordion-header-active, .shortcode_toggles_item_title:hover, .shortcode_toggles_item_title .ui-state-active {background:#ef6361;}
+.nav-tabs li a:hover {color:#ef6361;}
+.divider_colored {border-color:#ef6361;}
+
+.most_popular .price_item_btn a, .price_item_btn a:hover {background:#ef6361;}
+.most_popular .price_item_title {background:#ef6361;}
+.most_popular .price_item_cost h2, .most_popular .price_item_cost h2 span {color:#ef6361;}
+/* _________ //Shortcodes _________ */
+
+
+/* __________ Footer __________ */
+footer h3 {color:#ef6361;}
+footer .tweet_module .tweet_time a {color:#ef6361;}
+/* _________ //Footer _________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
