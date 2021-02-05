@@ -197,39 +197,45 @@ html[xmlns] .slides {
 .slide1 .flex_caption1 {
 	position: absolute;
 	z-index: 30;
-	left: 100px;
-	top: 50%;
+	left: 50px;
+	top: 60%;
 	color: #fff;
 	transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 }
 .slide1 .flex_caption1 .title1 {
 	margin: 0;
-	padding-left: 130px;
-	font-weight: 300;
-	line-height: 52px;
-	font-size: 52px;
+	padding-left: 50px;
+	font-weight: 600;
+	line-height: 70px;
+	font-size: 70px;
 }
 .slide1 .flex_caption1 .title2 {
 	margin: 0 0 12px;
 	font-weight: 700;
-	line-height: 57px;
-	font-size: 56px;
+	line-height: 45px;
+	font-size: 45px;
+	padding-left: 100px;
+	padding-top: 20px;
 }
 .slide1 .flex_caption1 .title3 {
 	margin: 0 0 3px;
-	padding-left: 60px;
-	line-height: 28px;
-	font-size: 22px;
+	line-height: 54px;
+	font-weight: 700;
+	font-size: 50px;
+	padding-top: 10px;
 }
 .slide1 .flex_caption1 .title4 {
 	margin: 0 0 5px;
-	padding-left: 155px;
-	font-weight: 600;
-	line-height: 31px;
-	font-size: 31px;
+	padding-left: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 40px;
+	padding-top: 25px;
 }
 
 .slide1 .flex_caption2 {

@@ -70,7 +70,7 @@ h6 {
 h1 {
 	margin: 0 0 20px;
 	line-height: 43px;
-	font-size: 51px;
+	font-size: 45px;
 }
 h2 {
 	margin: 0 0 25px;
@@ -105,7 +105,7 @@ h6 {
 }
 
 .color_text {
-	color: #77bbae;
+	color: #2292ed;
 }
 .color_dark {
 	color: #505050;
@@ -638,7 +638,7 @@ ul.mega_menu li ol li a {
 /*	SERVICES
 /*-----------------------------------------------------------------------------------*/
 .services_block {
-	margin: 0 -30px 70px;
+	margin: 0 -30px 30px;
 	padding: 72px 30px 50px;
 	background-image: url(../images/services_bg.jpg);
 	background-repeat: no-repeat;
@@ -652,13 +652,14 @@ ul.mega_menu li ol li a {
 	width: 197px;
 	height: 197px;
 	margin: 0 auto;
-	border: 2px solid #2292ed;
+	border: 2px solid #fff;
+	background-color: #0000007c;
 	border-radius: 50%;
 	transition: none;
 	-webkit-transition: none;
 }
 .service_item a:hover {
-	border-color: #fff;
+	border-color: #2292ed;
 }
 .service_item a:before {
 	content: "";
@@ -690,10 +691,10 @@ ul.mega_menu li ol li a {
 	font-weight: 600;
 	line-height: 17px;
 	font-size: 15px;
-	color: #2292ed;
+	color: #fff;
 }
 .service_item a:hover p {
-	color: #fff;
+	color: #2292ed;
 }
 
 .service_item i {
@@ -732,8 +733,19 @@ ul.mega_menu li ol li a {
 
 .content_txt {
 	float: left;
-	width: 450px;
-	padding-top: 66px;
+	width: 550px;
+	padding-top: 0px;
+	padding-left: 40px;
+	text-align: center;
+}
+
+.content_sub {
+	font-size: 20pt;
+	line-height: 24pt;
+}
+
+.aboutus {
+	text-align: left;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -2778,7 +2790,7 @@ footer .tweet_module .tweet_time a {
 		padding-top: 0;
 	}
 	.content_txt h1 {
-		font-size: 38px;
+		font-size: 30pt;
 		line-height: 34px;
 	}
 
