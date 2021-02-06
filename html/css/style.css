@@ -206,7 +206,7 @@ h6 {
 }
 
 .page_block {
-	opacity: 0;
+	opacity: 1;
 }
 #preloader {
 	position: fixed;
