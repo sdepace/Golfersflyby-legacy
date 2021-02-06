@@ -106,7 +106,7 @@ html[xmlns] .slides {
 	width: 45px;
 	height: 45px;
 	margin-top: -22px;
-	opacity: 0.47;
+	opacity: 0.5;
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -262,6 +262,7 @@ html[xmlns] .slides {
 }
 
 .slide2 .flex_caption0 {
+	background-color: #0000006c !important;
 	position: absolute;
 	z-index: 30;
 	top: 45%;
@@ -300,30 +301,35 @@ html[xmlns] .slides {
 	z-index: 25;
 	left: 10%;
 	top: 10%;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	background-image: url(../images/slider/caption_img2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 }
+
 .slide2 .flex_caption2 {
 	position: absolute;
 	z-index: 26;
 	left: 20%;
-	top: 60%;
-	width: 200px;
-	height: 200px;
+	top: 40%;
+	width: 250px;
+	height: 250px;
 	background-image: url(../images/slider/caption_img3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .slide2 .flex_caption3 {
 	position: absolute;
-	z-index: 27;
-	left: 60%;
-	top: 60%;
-	width: 200px;
-	height: 200px;
+	z-index: 29;
+	right: 20%;
+	top: 40%;
+	width: 250px;
+	height: 250px;
 	background-image: url(../images/slider/caption_img4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -332,13 +338,17 @@ html[xmlns] .slides {
 .slide2 .flex_caption4 {
 	position: absolute;
 	z-index: 27;
-	left: 70%;
+	right: 10%;
 	top: 10%;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	background-image: url(../images/slider/caption_img5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 }
 
 .slide3 {
@@ -357,6 +367,11 @@ html[xmlns] .slides {
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
+
+.slide3 .flex_caption1 a {
+	background-color: #0000006c !important;
+}
+
 .slide3 .flex_caption1 .title1 {
 	margin: 0 0 24px;
 	text-transform: uppercase;
@@ -517,6 +532,14 @@ html[xmlns] .slides {
 	-webkit-transform: translateX(0);
 }
 
+.flexslider li.flex-active-slide .TiltMoreLeft {
+	opacity: 1;
+	transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+}
+
 .flexslider li.flex-active-slide .TiltLeft {
 	opacity: 1;
 	transform: rotate(-10deg);
@@ -531,6 +554,14 @@ html[xmlns] .slides {
 	-o-transform: rotate(10deg);
 	-ms-transform: rotate(10deg);
 	-webkit-transform: rotate(10deg);
+}
+
+.flexslider li.flex-active-slide .TiltMoreRight {
+	opacity: 1;
+	transform: rotate(12deg);
+	-o-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
 }
 
 /* Products Slide */
