@@ -492,6 +492,7 @@ section {
 	margin: 0 -30px;
 	padding: 25px 30px;
 	background-color: #1269af;
+	border-bottom: #fff 2px solid;
 }
 
 .is-sticky .menu_block {
@@ -745,7 +746,8 @@ ul.mega_menu li ol li a {
 }
 
 .aboutus {
-	text-align: left;
+	font-size: 16pt;
+	line-height: 16pt;
 }
 
 /*-----------------------------------------------------------------------------------*/

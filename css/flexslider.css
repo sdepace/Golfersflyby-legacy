@@ -30,6 +30,7 @@
 .flexslider {
 	margin: 0;
 	padding: 0;
+	border-bottom: #fff 2px solid;
 }
 .flexslider .slides > li {
 	display: none;
@@ -209,17 +210,15 @@ html[xmlns] .slides {
 }
 .slide1 .flex_caption1 .title1 {
 	margin: 0;
-	padding-left: 50px;
 	font-weight: 600;
 	line-height: 70px;
-	font-size: 70px;
+	font-size: 50px;
 }
 .slide1 .flex_caption1 .title2 {
 	margin: 0 0 12px;
 	font-weight: 700;
 	line-height: 45px;
-	font-size: 45px;
-	padding-left: 100px;
+	font-size: 50px;
 	padding-top: 20px;
 }
 .slide1 .flex_caption1 .title3 {
@@ -231,10 +230,9 @@ html[xmlns] .slides {
 }
 .slide1 .flex_caption1 .title4 {
 	margin: 0 0 5px;
-	padding-left: 40px;
 	font-weight: 700;
 	line-height: 40px;
-	font-size: 40px;
+	font-size: 50px;
 	padding-top: 25px;
 }
 
