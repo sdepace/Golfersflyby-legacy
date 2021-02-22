@@ -199,14 +199,16 @@ h6 {
 }
 
 #page {
-	background-image: url(../images/bg.jpg);
+	background-image: url(../images/NJN_back2.jpg);
 	background-attachment: fixed;
 	background-position: 0 0;
-	background-repeat: repeat;
+	background-size: cover;
 }
 
 .page_block {
 	opacity: 1;
+	border-left: white solid 3px;
+	border-right: white solid 3px;
 }
 #preloader {
 	position: fixed;
@@ -492,7 +494,6 @@ section {
 	margin: 0 -30px;
 	padding: 25px 30px;
 	background-color: #1269af;
-	border-bottom: #fff 2px solid;
 }
 
 .is-sticky .menu_block {
@@ -500,6 +501,9 @@ section {
 	left: 50%;
 	width: 1170px;
 	margin-left: -585px;
+	border-bottom: white 2px solid;
+	border-left: white solid 3px;
+	border-right: white solid 3px;
 }
 
 .navbar-collapse {
@@ -520,7 +524,7 @@ section {
 }
 .navbar-nav li a {
 	display: block;
-	margin: 24px 0 21px 30px;
+	margin: 70px 0 0px 30px;
 	padding: 0;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -753,8 +757,13 @@ ul.mega_menu li ol li a {
 /*-----------------------------------------------------------------------------------*/
 /*	PROJECTS BLOCK
 /*-----------------------------------------------------------------------------------*/
+#projects .row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .projects_block .row {
-	margin: -5px;
+	margin: -9px;
 }
 
 .projects_block .project_item {
