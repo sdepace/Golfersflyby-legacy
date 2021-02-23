@@ -73,7 +73,7 @@ h1 {
 	font-size: 45px;
 }
 h2 {
-	margin: 0 0 25px;
+	margin: 0 0 12px;
 	line-height: 24px;
 	font-size: 21px;
 }
@@ -752,6 +752,7 @@ ul.mega_menu li ol li a {
 .aboutus {
 	font-size: 16pt;
 	line-height: 16pt;
+	text-align: left;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -2803,6 +2804,10 @@ footer .tweet_module .tweet_time a {
 	.content_txt h1 {
 		font-size: 30pt;
 		line-height: 34px;
+	}
+
+	.content_txt h2 {
+		margin-bottom: 0 !important;
 	}
 
 	.projects_block .project_item {
