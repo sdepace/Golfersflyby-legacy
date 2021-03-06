@@ -97,16 +97,14 @@
 
 				<!-- Contact Info -->
 				<section class="contacts_block" style="margin-top: 10px;">
-					<div class="row">
+					<div class="row" style="padding-bottom: 250px;">
 						<div class="col-lg-7 col-sm-7 padbot20" data-animated="fadeIn">
 							<h2>Get in Touch</h2>
 							<!-- Contact Form -->
 							<div class="contact_form top_form">
 								<div id="note"></div>
 								<div id="fields">
-									<form id="" action="https://api.staticforms.xyz/submit" method="POST"
-										target="hiddenFrame"
-										onsubmit="document.getElementById('note').innerText = 'Form Submitted!'">
+									<form id="" action="https://api.staticforms.xyz/submit" method="POST">
 										<input class="input_wt" type="text" name="name" value="Name"
 											onFocus="if (this.value == 'Name') this.value = '';"
 											onBlur="if (this.value == '') this.value = 'Name';" />
@@ -125,6 +123,8 @@
 										<input type="hidden" name="accessKey"
 											value="dafeb87b-7a3d-441c-9740-129c45e8753f">
 										<input type="hidden" name="replyTo" value="@">
+										<input type="text" name="honeypot" style="display:none">
+										<input type="hidden" name="redirectTo" value="https://golfersflyby.com">
 										<div class="clear"></div>
 									</form>
 								</div>
@@ -144,18 +144,16 @@
 					</div>
 				</section><!-- //Contacts Info -->
 
-				<!-- FOOTER -->
 				<footer class="full_width footer_block">
 					<!-- COPYRIGHT -->
 					<div class="copyright">
-						<a class="copyright_logo" href="javascript:void(0);">immortal</a> <span> &copy; Copyright
-							2020</span>
+						<a class="copyright_logo" href="javascript:void(0);">Golfer's Flyby</a> <span> &copy; Copyright
+							2021</span>
 					</div><!-- //COPYRIGHT -->
 				</footer><!-- //FOOTER -->
 			</div><!-- WRAPPER -->
 		</div><!-- //CONTAINER -->
 	</div><!-- //PAGE -->
-	<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
 </body>
 
 </html>
