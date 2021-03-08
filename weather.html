@@ -1,4 +1,44 @@
-<a class="weatherwidget-io" href="https://forecast7.com/en/40d74n74d38/chatham/?unit=us" data-font="Tinos" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" >Chatham, NJ, USA</a>
+<!-- <a class="weatherwidget-io" href="https://forecast7.com/en/40d74n74d38/chatham/?unit=us" data-font="Tinos" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" >Chatham, NJ, USA</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+</script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .google-weather-place {
+            width: 250px; 
+            height: 250px;
+        }
+        .google-weather-crop {
+            width: 145px; 
+            height: 70px;
+            overflow: hidden;
+            position: absolute;
+        }
+        .google-weather {
+            position: relative;
+            left: -180px; 
+            top: -180px;
+            width: 2560px; 
+            height: 5120px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="google-weather-place">
+        <div class="google-weather-crop">
+            <iframe id="iframeid" class="google-weather" src="https://www.google.com/search?igu=1&amp;q=weather%20chatham%20nj"></iframe>
+        </div>
+    </div>
+    <script>
+        setInterval(() => document.getElementById('iframeid').src = document.getElementById('iframeid').src, 120000)
+    </script>
+</body>
+</html>
+
