@@ -898,7 +898,7 @@ footer .latest_news_item .recent_post {
 	width: 80px;
 	height: 80px;
 	margin: 0 20px 10px 0;
-	background-color: #efb422;
+	background-color: #f7dd1f;
 }
 footer .latest_news_item .recent_post img {
 	opacity: 0.86;
@@ -1237,7 +1237,7 @@ footer input[type="text"].last {
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .skill-bar:hover {
-	border-left-color: #efb422;
+	border-left-color: #f7dd1f;
 }
 .skill-bar span {
 	display: inline-block;
@@ -1773,7 +1773,7 @@ span.sep {
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #efb422;
+	background-color: #f7dd1f;
 }
 .FlickrImages li a img {
 	width: 60px;
@@ -1853,7 +1853,7 @@ footer .tweet_module .tweet_list li {
 	display: block;
 }
 footer .tweet_module .tweet_time a {
-	color: #efb422;
+	color: #f7dd1f;
 }
 
 /* //Tweets */
@@ -2396,7 +2396,7 @@ footer .tweet_module .tweet_time a {
 	font-weight: 700;
 	font-size: 15px;
 	color: #fff;
-	background-color: #efb422;
+	background-color: #f7dd1f;
 }
 
 /* _________ //Product _________ */
