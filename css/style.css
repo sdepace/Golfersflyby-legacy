@@ -330,11 +330,11 @@ section {
 }
 
 .btn-active {
-	color: #f7dd1f !important;
-	border-color: #f7dd1f !important;
+	color: #edd003 !important;
+	border-color: #edd003 !important;
 }
 .btn-active:before {
-	border-color: #f7dd1f !important;
+	border-color: #edd003 !important;
 }
 
 .btn-primary {
@@ -455,7 +455,7 @@ section {
 	-webkit-transition: background-color 0.3s ease-in-out;
 }
 .social li a:hover {
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 
 .social li.icon1 a {
@@ -547,8 +547,8 @@ section {
 .navbar-nav li a:focus,
 .navbar-nav li.active a {
 	background: none;
-	color: #f7dd1f;
-	border-color: #f7dd1f;
+	color: #edd003;
+	border-color: #edd003;
 }
 
 /* __________ Submenu __________ */
@@ -593,7 +593,7 @@ section {
 }
 .sub-menu ul li.active a,
 .sub-menu ul li a:hover {
-	color: #f7dd1f !important;
+	color: #edd003 !important;
 	background: none !important;
 }
 .sub-menu ul li a span {
@@ -610,7 +610,7 @@ ul.mega_menu {
 	color: #979797;
 }
 ul.mega_menu .color_text {
-	color: #f7dd1f;
+	color: #edd003;
 }
 ul.mega_menu h5 {
 	margin-bottom: 5px;
@@ -917,7 +917,7 @@ footer .latest_news_item:hover .recent_post_title {
 }
 footer .recent_post_inf li {
 	padding: 0 0 9px;
-	color: #f7dd1f;
+	color: #edd003;
 }
 footer .recent_post_txt {
 	padding-top: 0;
@@ -987,7 +987,7 @@ footer .recent_posts li .post_title {
 	color: #cecece;
 }
 footer .recent_posts li .post_title:hover {
-	color: #f7dd1f;
+	color: #edd003;
 }
 footer .recent_posts li .date_block {
 	color: #818181;
@@ -1026,7 +1026,7 @@ footer .recent_posts li .date_block {
 }
 #newsletter-form input.contact_btn:hover {
 	border: 0;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 
 /* __________ Useful Links __________ */
@@ -1054,7 +1054,7 @@ footer .recent_posts li .date_block {
 }
 .foot_links li:hover span {
 	left: 10px;
-	color: #f7dd1f;
+	color: #edd003;
 }
 
 /* __________ Tags __________ */
@@ -1237,7 +1237,7 @@ footer input[type="text"].last {
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .skill-bar:hover {
-	border-left-color: #f7dd1f;
+	border-left-color: #edd003;
 }
 .skill-bar span {
 	display: inline-block;
@@ -1249,7 +1249,7 @@ footer input[type="text"].last {
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .skill-bar:hover span {
-	color: #f7dd1f;
+	color: #edd003;
 }
 .progress-complete {
 	display: block;
@@ -1285,7 +1285,7 @@ footer input[type="text"].last {
 #accordion .ui-accordion-header.ui-accordion-header-active,
 .shortcode_toggles_item_title:hover,
 .shortcode_toggles_item_title .ui-state-active {
-	background: #f7dd1f;
+	background: #edd003;
 	color: #fff;
 }
 #accordion .ui-accordion-header .ui-icon,
@@ -1355,7 +1355,7 @@ footer input[type="text"].last {
 	background-color: #f4f4f4;
 }
 .nav-tabs li a:hover {
-	color: #f7dd1f;
+	color: #edd003;
 	background: #f4f4f4;
 	border-bottom: 3px solid #fff;
 }
@@ -1526,7 +1526,7 @@ hr {
 	border-color: #505050;
 }
 .divider_colored {
-	border-color: #f7dd1f;
+	border-color: #edd003;
 }
 
 .alert {
@@ -1625,15 +1625,15 @@ hr {
 }
 .most_popular .price_item_btn a,
 .price_item_btn a:hover {
-	background: #f7dd1f;
+	background: #edd003;
 	color: #ffffff;
 }
 .most_popular .price_item_title {
-	background: #f7dd1f;
+	background: #edd003;
 }
 .most_popular .price_item_cost h2,
 .most_popular .price_item_cost h2 span {
-	color: #f7dd1f;
+	color: #edd003;
 }
 /* _________ //Price Table _________ */
 
@@ -1853,7 +1853,7 @@ footer .tweet_module .tweet_list li {
 	display: block;
 }
 footer .tweet_module .tweet_time a {
-	color: #f7dd1f;
+	color: #edd003;
 }
 
 /* //Tweets */
@@ -1920,7 +1920,7 @@ footer .tweet_module .tweet_time a {
 	background-color: #f4f4f4;
 }
 #filter li a.selected {
-	background-color: #f7dd1f;
+	background-color: #edd003;
 	color: #fff;
 }
 #projects .columns1 .project {
@@ -2069,7 +2069,7 @@ footer .tweet_module .tweet_time a {
 }
 .product_sort #filter li a:hover,
 .product_sort #filter li a.selected {
-	color: #f7dd1f;
+	color: #edd003;
 	background-color: #e3e3e3;
 }
 
@@ -2100,7 +2100,7 @@ footer .tweet_module .tweet_time a {
 }
 .product_item .hover_img {
 	width: 100%;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 .product_item .hover_img img {
 	opacity: 0.88;
@@ -2174,7 +2174,7 @@ footer .tweet_module .tweet_time a {
 }
 .variable-sizes .product_item .item_btn_in a.btn:hover {
 	color: #fff;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 .variable-sizes .project_descr {
 	position: static;
@@ -2278,7 +2278,7 @@ footer .tweet_module .tweet_time a {
 	padding: 2px 0;
 }
 #price-range .ui-widget-header {
-	background: #f7dd1f;
+	background: #edd003;
 }
 #price-range .ui-state-default {
 	background: #ddd;
@@ -2316,7 +2316,7 @@ footer .tweet_module .tweet_time a {
 	-webkit-transition: border-color 0.3s ease-in-out;
 }
 .product_item2:hover {
-	border-color: #f7dd1f;
+	border-color: #edd003;
 }
 .product_foto {
 	display: block;
@@ -2396,7 +2396,7 @@ footer .tweet_module .tweet_time a {
 	font-weight: 700;
 	font-size: 15px;
 	color: #fff;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 
 /* _________ //Product _________ */
@@ -2448,7 +2448,7 @@ footer .tweet_module .tweet_time a {
 .type2 .product_price {
 	line-height: 27px;
 	font-size: 29px;
-	color: #f7dd1f;
+	color: #edd003;
 }
 .type2 .old_price {
 	padding-right: 22px;
@@ -2551,13 +2551,13 @@ footer .tweet_module .tweet_time a {
 	border: 2px solid #e4e4e4;
 }
 .quantity_block .product_inf .btn.add_cart {
-	border-color: #f7dd1f;
-	color: #f7dd1f;
+	border-color: #edd003;
+	color: #edd003;
 }
 .quantity_block .product_inf .btn.add_cart:hover {
-	border-color: #f7dd1f;
+	border-color: #edd003;
 	color: #fff;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 .quantity_block .product_inf .btn:hover {
 	border-color: #505050;
@@ -2628,7 +2628,7 @@ footer .tweet_module .tweet_time a {
 	background-color: #505050;
 }
 .jCarousel_pagination a:hover {
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 .jCarousel_pagination a.inactive {
 	background-color: #505050;
