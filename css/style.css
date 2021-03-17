@@ -844,7 +844,7 @@ ul.mega_menu li ol li a {
 	margin: 0 30px 10px 0;
 	width: 160px;
 	height: 113px;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 .latest_news_item .recent_post:before {
 	content: "";
@@ -898,7 +898,7 @@ footer .latest_news_item .recent_post {
 	width: 80px;
 	height: 80px;
 	margin: 0 20px 10px 0;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 footer .latest_news_item .recent_post img {
 	opacity: 0.86;
@@ -1773,7 +1773,7 @@ span.sep {
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #f7dd1f;
+	background-color: #edd003;
 }
 .FlickrImages li a img {
 	width: 60px;
@@ -2419,7 +2419,7 @@ footer .tweet_module .tweet_time a {
 .rating:hover .rating-star:hover,
 .rating:hover .rating-star:hover ~ .rating-star,
 .rating-input:checked ~ .rating-star {
-	color: #f7dd1f;
+	color: #edd003;
 }
 .rating-star,
 .rating:hover .rating-star {
@@ -2895,7 +2895,7 @@ footer .tweet_module .tweet_time a {
 		-webkit-transition: all 0.3s ease-in-out;
 	}
 	.navbar-toggle:hover span {
-		color: #f7dd1f;
+		color: #edd003;
 	}
 	.navbar-nav {
 		float: none;
@@ -2925,7 +2925,7 @@ footer .tweet_module .tweet_time a {
 	.navbar-nav li a:focus,
 	.navbar-nav li.active a {
 		background: none !important;
-		color: #f7dd1f;
+		color: #edd003;
 	}
 	.navbar-nav li a:before,
 	.navbar-nav li a:after {
