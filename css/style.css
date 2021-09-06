@@ -3210,6 +3210,17 @@ footer .tweet_module .tweet_time a {
 	}
 }
 
+#main-header {
+	text-align: center;
+	color: #1269af;
+	margin: 10px;
+}
+
+#side-header {
+	text-align: center;
+	color: #1269af;
+}
+
 #frame-preview {
 	display: flex;
 	flex-direction: row;
@@ -3243,10 +3254,11 @@ footer .tweet_module .tweet_time a {
 #order-form{
 	width: 25%;
 	margin: 5px;
-	height: 476px;
+	height: 350px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	margin-bottom: 126px;
 }
 
 #frame-subtitle {
@@ -3254,16 +3266,68 @@ footer .tweet_module .tweet_time a {
 	flex-direction: row;
 	justify-content: space-between;
 	position: absolute;
-	top: 78%;
 	left: 0;
 	z-index: 120;
-	width: 70%;
-	margin-left: 15%;
+	width: 80%;
+	margin-left: 10%;
 }
 
-#frame-subtitle * {
+#frame-subtitle.oneline {
+	top: 78%;
+}
+
+#frame-subtitle.threeline {
+	top: 73%;
+}
+
+#frame-subtitle > span > div {
+	text-align: center;
 	font-family: 'Parchment-MF', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#frame-subtitle > span {
+	margin: 0 auto;
+	line-height: 15px;
+}
+
+#frame-subtitle > span > span {
+	font-family: 'Parchment-MF', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+#frame-subtitle.oneline > span > span {
+	font-size: 18px;
+}
+
+#frame-subtitle.threeline > span > span {
+	font-size: 16px;
+}
+
+#frame-subtitle > span > span::first-letter {
+	font-size: 140%;
+}
+
+#photo-previews {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#photo-previews div {
+	margin: 5px;
+}
+
+#photo-previews > div > img:hover {
+	opacity: .8;
+}
+
+#photo-previews > div > p {
+	text-align: center;
+	font-size: 14pt;
 }
 
 @font-face {
@@ -3274,3 +3338,4 @@ footer .tweet_module .tweet_time a {
     font-weight: normal;
     font-style: normal;
 }
+
