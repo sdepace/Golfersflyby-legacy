@@ -3209,3 +3209,133 @@ footer .tweet_module .tweet_time a {
 		width: 8.333333333333332%;
 	}
 }
+
+#main-header {
+	text-align: center;
+	color: #1269af;
+	margin: 10px;
+}
+
+#side-header {
+	text-align: center;
+	color: #1269af;
+}
+
+#frame-preview {
+	display: flex;
+	flex-direction: row;
+}
+
+#preview-container{
+	position: relative;
+	width: 75%;
+	margin: 5px;
+}
+
+#preview-container img {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#frame-outline {
+	z-index: 100;
+}
+
+#cutout {
+	z-index: 90;
+}
+
+#main-photo {
+	z-index: 80;
+}
+
+#order-form{
+	width: 25%;
+	margin: 5px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-bottom: 126px;
+}
+
+#frame-subtitle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	z-index: 120;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#frame-subtitle.oneline {
+	top: 78%;
+}
+
+#frame-subtitle.threeline {
+	top: 73%;
+}
+
+#frame-subtitle > span > div {
+	text-align: center;
+	font-family: 'Parchment-MF', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#frame-subtitle > span {
+	margin: 0 auto;
+	line-height: 15px;
+}
+
+#frame-subtitle > span > span {
+	font-family: 'Parchment-MF', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+#frame-subtitle.oneline > span > span {
+	font-size: 18px;
+}
+
+#frame-subtitle.threeline > span > span {
+	font-size: 16px;
+}
+
+#frame-subtitle > span > span::first-letter {
+	font-size: 140%;
+}
+
+#photo-previews {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#photo-previews div {
+	margin: 5px;
+}
+
+#photo-previews > div > img:hover {
+	opacity: .8;
+}
+
+#photo-previews > div > p {
+	text-align: center;
+	font-size: 14pt;
+}
+
+@font-face {
+    font-family: 'Parchment-MF';
+    src:url('../fonts/parchment/Parchment-MF.ttf.woff') format('woff'),
+        url('../fonts/parchment/Parchment-MF.ttf.svg#Parchment-MF') format('svg'),
+        url('../fonts/parchment/Parchment-MF.ttf.eot'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
