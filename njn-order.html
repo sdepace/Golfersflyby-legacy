@@ -88,27 +88,32 @@
 						<span id="frame-subtitle" class="oneline">
 							<span>
 								<span>Hole</span>
-								<span>#10</span>
+								<span> #10</span>
 							</span>
 							<span>
 								<span>New</span>
-								<span>Jersey</span>
-								<span>National</span>
-								<span>Golf</span>
-								<span>Club</span>
+								<span> Jersey</span>
+								<span> National</span>
+								<span> Golf</span>
+								<span> Club</span>
 								<div id="linetwo" hidden="true"></div>
 								<div id="linethree" hidden="true"></div>
 							</span>
 							<span>
 								<span>474</span>
-								<span>Yards</span>
-								<span>Par</span>
-								<span>4</span>
+								<span> Yards</span>
+								<span> Par</span>
+								<span> 4</span>
 							</span>
 						</span>
                     </div>
                     <form id="order-form" action="https://api.staticforms.xyz/submit" method="POST">
 						<h2 id="side-header">Customize your photo</h2>
+						<select class="include-in-form" name="Frame award type" id="award-select">
+							<option value="None Chosen">Select an award</option>
+							<option value="Hole In One">holeinone</option>
+							<option value="Event Award">eventaward</option>
+						</select>
 						<select class="include-in-form" name="hole-photo" id="photo-select">
 							<option value="None Chosen">Select a photo</option>			
 						</select>
