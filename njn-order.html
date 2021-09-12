@@ -85,55 +85,68 @@
                         <img id="frame-outline" src="./images/frame-preview/frame.png" alt="Frame Outline">
 						<img id="cutout" src="./images/frame-preview/mats/njn1.png" alt="Cutout">
 						<img id="main-photo" src="./images/frame-preview/photos/NJN/hole1.jpg" alt="Photo">
-						<span id="frame-subtitle" class="oneline">
-							<span>
-								<span>Hole&nbsp;</span>
-								<span>#10</span>
-							</span>
-							<span>
-								<span>New&nbsp;</span>
-								<span>Jersey&nbsp;</span>
-								<span>National&nbsp;</span>
-								<span>Golf&nbsp;</span>
-								<span>Club</span>
-								<div id="linetwo" hidden="true"></div>
-								<div id="linethree" hidden="true"></div>
-							</span>
-							<span>
-								<span>474&nbsp;</span>
-								<span>Yards&nbsp;</span>
-								<span>Par&nbsp;</span>
-								<span>4</span>
-							</span>
-						</span>
+						<div id="frame-subtitle" class="oneline">
+							<div id="left">
+								<div class="lineone"></div>
+								<div class="linetwo" hidden="true"></div>
+								<div class="linethree" hidden="true"></div>
+							</div>
+							<div id="middle">
+								<div class="lineone">New Jersey National Golf Club</div>
+								<div class="linetwo" hidden="true"></div>
+								<div class="linethree" hidden="true"></div>
+							</div>
+							<div id="right">
+								<div class="lineone"></div>
+								<div class="linetwo" hidden="true"></div>
+								<div class="linethree" hidden="true"></div>
+							</div>
+						</div>
                     </div>
                     <form id="order-form" action="https://api.staticforms.xyz/submit" method="POST">
+						<!--. Get rid of extra line customization box, instead use....  -->
+						<!--. If they select hole in one, ask to answer- player name, date, distance, club used, witnesses  -->
+						<!--. If they select event Award, ask Event name, award name, player/s -->
+						<!--. If they select framed art use single line and info for each image -->
 						<h2 id="side-header">Customize your photo</h2>
-						<select class="include-in-form" name="Frame award type" id="award-select">
-							<option value="None Chosen">Select an Award/Photo Art Type</option>
-							<option value="Hole In One">Hole In One Award</option>
-							<option value="Event Award">Event Award</option>
-							<option value="Framed photo">Framed Photo Art</option>
-						</select>
-			    <!--. Get rid of extra line customization box, instead use....  -->
-			    <!--. If they select hole in one, ask to answer- player name, date, distance, club used, witnesses  -->
-			    <!--. If they select event Award, ask Event name, award name, player/s -->
-			    <!--. If they select framed art use single line and info for each image -->
-						<select class="include-in-form" name="hole-photo" id="photo-select">
-							<option value="None Chosen">Select a photo</option>			
-						</select>
-						<select class="include-in-form" name="frame-size" id="size-select">
-							<option value="None Chosen">Pick a size</option>
-							<option value="20x10">20x10</option>
-							<option value="24x12">24x12</option>
-							<option value="30x15">30x15</option>
-							<option value="30x15">40x20</option>
-						</select>
-						<span>
-							<label for="photo-text">Add optional text (Max 2 lines)</label>
-							<textarea class="include-in-form" id="photo-text" name="text" rows="2" cols="30"></textarea>
-						</span>
-						<input class="include-in-form" type="email" name="email" id="email" placeholder="Contact email address">
+
+						<div id="main-info">
+							<select class="include-in-form" name="Frame award type" id="award-select">
+								<option value="None Chosen">Select an Award/Photo Art Type</option>
+								<option value="Hole In One">Hole In One Award</option>
+								<option value="Event Award">Event Award</option>
+								<option value="Framed Photo">Framed Photo Art</option>
+							</select><br>
+							<select class="include-in-form" name="hole-photo" id="photo-select">
+								<option value="None Chosen">Select a photo</option>			
+							</select><br>
+							<select class="include-in-form" name="frame-size" id="size-select">
+								<option value="None Chosen">Pick a size</option>
+								<option value="20x10">20x10</option>
+								<option value="24x12">24x12</option>
+								<option value="30x15">30x15</option>
+								<option value="30x15">40x20</option>
+							</select><br>
+						</div>
+						
+
+						<div id="hole-in-one" hidden="true">
+							<input class="include-in-form" type="text" name="player-name" id="player-name" placeholder="Player Name"><br>
+							<input class="include-in-form" type="text" name="club-used" id="club-used" placeholder="Club Used"><br>
+							<input class="include-in-form" type="date" name="date-hit" id="date-hit" placeholder="Date"><br>
+							<input class="include-in-form" type="number" name="distance" id="distance" placeholder="Distance (yards)"><br>
+							<input class="include-in-form" type="text" name="witnesses" id="witnesses" placeholder="Witnesses"><br>
+						</div>
+
+						<div id="event-award" hidden="true">
+							<input class="include-in-form" type="text" name="player-names" id="player-names" placeholder="Player(s) Names"><br>
+							<input class="include-in-form" type="text" name="award-name" id="award-name" placeholder="Award Name"><br>
+						</div>
+
+						<hr>
+						
+						<input class="include-in-form" type="text" name="email" id="email" placeholder="Contact email address">
+						
 						<input type="submit" value="Submit">
 						<input id="output" type="hidden" name="message" value="None">
 						<!-- static forms fields -->
