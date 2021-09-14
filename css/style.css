@@ -3243,6 +3243,10 @@ footer .tweet_module .tweet_time a {
 	z-index: 100;
 }
 
+#logo {
+	z-index: 95;
+}
+
 #cutout {
 	z-index: 90;
 }
@@ -3251,7 +3255,7 @@ footer .tweet_module .tweet_time a {
 	z-index: 80;
 }
 
-#order-form{
+#order-form {
 	width: 25%;
 	margin: 5px;
 	height: 350px;
@@ -3259,6 +3263,10 @@ footer .tweet_module .tweet_time a {
 	flex-direction: column;
 	justify-content: space-evenly; */
 	margin-bottom: 126px;
+}
+
+#left, #right {
+	width: 125px;
 }
 
 #frame-subtitle {

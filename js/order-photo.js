@@ -27,8 +27,8 @@ $(document).ready(() => {
             case "Event Award":
             case "Framed Photo":
             default: 
-                document.querySelector("#right > .lineone").innerText = `Hole #${selected.hole}`;
-                document.querySelector("#left > .lineone").innerText = selected.parValue;
+                document.querySelector("#left > .lineone").innerText = `Hole #${selected.hole}`;
+                document.querySelector("#right > .lineone").innerText = selected.parValue;
                 break;
         }
     }
@@ -66,7 +66,7 @@ $(document).ready(() => {
             case "Hole In One":
                 eventAward.hidden = true;
                 holeInOne.hidden = false;
-                mat.src = "./images/frame-preview/mats/njn3.png";
+                mat.src = "./images/frame-preview/mats/3line.png";
                 subtitle.classList.add('threeline');
                 subtitle.classList.remove('oneline');
                 document.querySelector("#left > .linetwo").hidden = false;
@@ -82,7 +82,7 @@ $(document).ready(() => {
             case "Event Award":
                 eventAward.hidden = false;
                 holeInOne.hidden = true;
-                mat.src = "./images/frame-preview/mats/njn3.png";
+                mat.src = "./images/frame-preview/mats/3line.png";
                 subtitle.classList.add('threeline');
                 subtitle.classList.remove('oneline');
                 document.querySelector("#left > .linetwo").hidden = true;
@@ -97,7 +97,7 @@ $(document).ready(() => {
             case "Framed Photo": 
                 eventAward.hidden = true;
                 holeInOne.hidden = true;
-                mat.src = "./images/frame-preview/mats/njn1.png";
+                mat.src = "./images/frame-preview/mats/1line.png";
                 subtitle.classList.add('oneline');
                 subtitle.classList.remove('threeline');
                 document.querySelector("#left > .linetwo").hidden = true;
@@ -111,7 +111,7 @@ $(document).ready(() => {
             default: 
                 eventAward.hidden = true;
                 holeInOne.hidden = true;
-                mat.src = "./images/frame-preview/mats/njn1.png";
+                mat.src = "./images/frame-preview/mats/1line.png";
                 subtitle.classList.add('oneline');
                 subtitle.classList.remove('threeline');
                 document.querySelector("#left > .linetwo").hidden = true;
@@ -130,11 +130,11 @@ $(document).ready(() => {
 
     document.getElementById("player-name").addEventListener("keyup", (event) => {
         pName = event.target.value;
-        document.querySelector("#middle > .linetwo").innerText = `Hole in One - ${pName} - ${date}`
+        document.querySelector("#middle > .linetwo").innerText = `Hole in One - ${pName} - ${moment(date).format("MMMM D, YYYY")}`
     });
     document.getElementById("date-hit").addEventListener("change", (event) => {
         date = event.target.value;
-        document.querySelector("#middle > .linetwo").innerText = `Hole in One - ${pName} - ${date}`
+        document.querySelector("#middle > .linetwo").innerText = `Hole in One - ${pName} - ${moment(date).format("MMMM D, YYYY")}`
     });
 
     document.getElementById("club-used").addEventListener("keyup", (event) => {
