@@ -3233,7 +3233,6 @@ footer .tweet_module .tweet_time a {
 }
 
 #preview-container img {
-	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -3253,6 +3252,9 @@ footer .tweet_module .tweet_time a {
 
 #main-photo {
 	z-index: 80;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 8%;
 }
 
 #order-form {
