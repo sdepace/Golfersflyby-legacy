@@ -529,11 +529,11 @@ section {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+	font-size: 13pt;
 	color: #ffffff;
 	text-shadow: none;
 	border: 0;
 	border-bottom: 2px solid rgb(255, 255, 255);
-	font-size: 13pt;
 }
 .navbar-nav li.first a {
 	padding-left: 0;
@@ -3220,15 +3220,11 @@ footer .tweet_module .tweet_time a {
 	color: #1269af;
 }
 
-#frame-preview {
-	display: flex;
-	flex-direction: row;
-}
-
 #preview-container{
 	position: relative;
-	width: 75%;
+	width: 100%;
 	margin: 5px;
+	height: 640px;
 }
 
 #preview-container img {
@@ -3311,7 +3307,7 @@ footer .tweet_module .tweet_time a {
 }
 
 #frame-subtitle.oneline > div > div {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 #frame-subtitle.threeline > div > div {
