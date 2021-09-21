@@ -14,13 +14,13 @@ $(document).ready(() => {
     const selectHole = () => {
         switch(mode) {
             case "Hole In One":
-                document.querySelector("#right > .lineone").innerText = `Hole #${selected.hole}`;
+                document.querySelector("#right > .lineone").innerText = selected.hole ? `Hole #${selected.hole}` : "";
                 document.querySelector("#right > .linetwo").innerText = selected.parValue;
                 break;
             case "Event Award":
             case "Framed Photo":
             default: 
-                document.querySelector("#left > .lineone").innerText = `Hole #${selected.hole}`;
+                document.querySelector("#left > .lineone").innerText = selected.hole ? `Hole #${selected.hole}` : "";
                 document.querySelector("#right > .lineone").innerText = selected.parValue;
                 break;
         }
