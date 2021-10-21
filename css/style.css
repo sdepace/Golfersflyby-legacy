@@ -3336,9 +3336,15 @@ footer .tweet_module .tweet_time a {
 	font-size: 14pt;
 }
 
-#order-form > *, #order-form > * > * {
+#order-form > div > input, #order-form > div > select {
 	width: 100%;
-	margin: 4px 2px;
+	margin: 4px 0px;
+	padding: 4px 8px;
+	font-size: 10pt;
+}
+
+#order-form > * {
+	width: 100%;
 }
 
 @font-face {

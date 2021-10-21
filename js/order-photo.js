@@ -157,10 +157,25 @@ $(document).ready(() => {
         document.querySelector("#middle > .linetwo").innerText = event.target.value;
     });
 
+    // fixes submits on enter key
+    $("#order-form").on("keypress", event => {
+        let keyPressed = event.keyCode || event.which;
+        if (keyPressed === 13) {
+            event.preventDefault();
+            return false;
+        }
+    });
+
     document.getElementById("order-form").addEventListener("submit", (event) => {
-        document.getElementById("output").value = [...document.querySelectorAll(".include-in-form")].map(elm => elm.name + ": " + elm.value.replace("\n", "<br>")).join("<br>");
-        alert("Order received! We will send you a proof for your review shortly.")
-        e.preventDefault()
+        if(!/^\S+@\S+\.\S+$/.test(document.getElementById("email").value)) {
+            alert("Please enter a valid email address");
+            event.preventDefault();
+            return false;
+        } else {
+            document.getElementById("output").value = [...document.querySelectorAll(".include-in-form")].map(elm => elm.name + ": " + elm.value.replace("\n", "<br>")).join("<br>");
+            alert("Order received! We will send you a proof for your review shortly.")
+        }
+        
     })
     
     selectHole();
