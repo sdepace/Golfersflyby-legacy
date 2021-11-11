@@ -13,7 +13,8 @@ $(document).ready(() => {
             return {
                 src: img.src,
                 hole: img.getAttribute("hole"),
-                parValue: img.getAttribute("parValue")
+                parValue: img.getAttribute("parValue"),
+                courseName: img.getAttribute("courseName") || document.querySelector("#middle > .lineone").innerText
             }
         });
         
@@ -23,12 +24,14 @@ $(document).ready(() => {
             case "Hole In One":
                 document.querySelector("#right > .lineone").innerText = selected.hole ? `Hole #${selected.hole}` : "";
                 document.querySelector("#right > .linetwo").innerText = selected.parValue;
+                document.querySelector("#middle > .lineone").innerText = selected.courseName;
                 break;
             case "Event Award":
             case "Framed Photo":
             default: 
                 document.querySelector("#left > .lineone").innerText = selected.hole ? `Hole #${selected.hole}` : "";
                 document.querySelector("#right > .lineone").innerText = selected.parValue;
+                document.querySelector("#middle > .lineone").innerText = selected.courseName;
                 break;
         }
     }
