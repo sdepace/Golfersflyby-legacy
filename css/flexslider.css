@@ -287,10 +287,10 @@ html[xmlns] .slides {
 .slide2 .flex_caption1 {
 	position: absolute;
 	z-index: 25;
-	left: 10%;
-	top: 10%;
-	width: 250px;
-	height: 250px;
+	left: 4%;
+	top: 15%;
+	width: 349px;
+	height: 200px;
 	background-image: url(../images/slider/caption_img2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -303,10 +303,10 @@ html[xmlns] .slides {
 .slide2 .flex_caption2 {
 	position: absolute;
 	z-index: 26;
-	left: 20%;
-	top: 40%;
-	width: 250px;
-	height: 250px;
+	left: 12%;
+	top: 55%;
+	width: 349px;
+	height: 200px;
 	background-image: url(../images/slider/caption_img3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -314,10 +314,10 @@ html[xmlns] .slides {
 .slide2 .flex_caption3 {
 	position: absolute;
 	z-index: 29;
-	right: 20%;
-	top: 40%;
-	width: 250px;
-	height: 250px;
+	right: 12%;
+	top: 55%;
+	width: 349px;
+	height: 200px;
 	background-image: url(../images/slider/caption_img4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -326,10 +326,10 @@ html[xmlns] .slides {
 .slide2 .flex_caption4 {
 	position: absolute;
 	z-index: 27;
-	right: 10%;
-	top: 10%;
-	width: 250px;
-	height: 250px;
+	right: 4%;
+	top: 15%;
+	width: 349px;
+	height: 200px;
 	background-image: url(../images/slider/caption_img5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;

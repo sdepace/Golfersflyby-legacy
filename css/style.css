@@ -274,7 +274,7 @@ section {
 .btn {
 	position: relative;
 	margin: 0;
-	padding: 13px 50px;
+	padding: 13px 15px;
 	border: 1px solid #505050 !important;
 	border-radius: 0;
 	box-shadow: none !important;
